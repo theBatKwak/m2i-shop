@@ -7,7 +7,8 @@
     <!--<ExoFour />-->
     <!--<ExoFive />-->
     <!--<ExoSeven titre="1234" />-->
-    <ExoEight />
+    <!--<ExoEight />-->
+    <MorpionGame />
   </main>
 </template>
 
@@ -19,6 +20,7 @@
   import ExoFive from "@/components/ExoFive.vue"
   import ExoSeven from "@/components/ExoSeven.vue"
   import ExoEight from "@/components/ExoEight.vue"
+  import MorpionGame from "@/components/MorpionGame.vue"
 </script>
 
 <style scoped></style>
