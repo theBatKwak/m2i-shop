@@ -1,10 +1,9 @@
 <template>
   <main>
-    <h1>Titre</h1>
-    <p>{{ paragraphe }}</p>
+    <h1>Home</h1>
   </main>
 </template>
-<script setup>
-  import { ref } from "vue"
-  const paragraphe = ref("Contenu du paragraphe")
-</script>
+
+<script setup></script>
+
+<style scoped></style>
