@@ -12,6 +12,15 @@
     <!--<ExoEleven />-->
     <!--<MorpionGame />-->
     <!--<ExoTwelve></ExoTwelve>-->
+    <!--<ExoThirteen />-->
+    <!--<ExoFourteen />-->
+    <!--<ExoFifteen :max-text-length-allowed="12" />
+    <ExoFifteen :max-text-length-allowed="5" />
+    <ExoFifteen :max-text-length-allowed="20" />-->
+    <!--<ExoSixteen :number-a="142" :number-b="314" />-->
+    <!--<ExoSeventeen />-->
+    <!--<ExoEighteen />-->
+    <ExoNineteen />
   </main>
 </template>
 
@@ -29,6 +38,11 @@
   import { useRouter } from "vue-router"
   import ExoEleven from "@/components/ExoEleven.vue"
   import ExoTwelve from "@/components/ExoTwelve.vue"
+  import ExoThirteen from "@/components/ExoThirteen.vue"
+  import ExoFourteen from "@/components/ExoFourteen.vue"
+  import ExoFifteen from "@/components/ExoFifteen.vue"
+  import ExoSixteen from "@/components/ExoSixteen.vue"
+  import ExoSeventeen from "@/components/ExoSeventeen.vue"
+  import ExoEighteen from "@/components/ExoEighteen.vue"
+  import ExoNineteen from "@/components/ExoNineteen.vue"
 </script>
-
-<style scoped></style>
