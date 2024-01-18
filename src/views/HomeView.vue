@@ -1,14 +1,10 @@
 <template>
   <main>
     <h1>Home</h1>
-    <EchFive @data="logEvent" />
+    <ExoTwentyThree />
   </main>
 </template>
 
 <script setup>
-  import EchFive from "@/components/EchFive.vue"
-
-  function logEvent(payload) {
-    console.log("événement reçu", payload.number)
-  }
+  import ExoTwentyThree from "@/components/ExoTwentyThree.vue"
 </script>
