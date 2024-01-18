@@ -20,7 +20,10 @@
     <!--<ExoSixteen :number-a="142" :number-b="314" />-->
     <!--<ExoSeventeen />-->
     <!--<ExoEighteen />-->
-    <ExoNineteen />
+    <!--<ExoNineteen />-->
+    <!--<ExoTwenty />-->
+    <!--<ExoTwentyOne />-->
+    <!--<ExoTwentyTwo />-->
   </main>
 </template>
 
@@ -34,7 +37,7 @@
   import ExoEight from "@/components/ExoEight.vue"
   import ExoTen from "@/components/ExoTen.vue"
   import MorpionGame from "@/components/MorpionGame.vue"
-  import { computed, ref } from "vue"
+  import { computed, ref, watch } from "vue"
   import { useRouter } from "vue-router"
   import ExoEleven from "@/components/ExoEleven.vue"
   import ExoTwelve from "@/components/ExoTwelve.vue"
@@ -45,4 +48,8 @@
   import ExoSeventeen from "@/components/ExoSeventeen.vue"
   import ExoEighteen from "@/components/ExoEighteen.vue"
   import ExoNineteen from "@/components/ExoNineteen.vue"
+  import ExoTwenty from "@/components/ExoTwenty.vue"
+  import ExoTwentyOne from "@/components/ExoTwentyOne.vue"
+  import ExoTwentyTwo from "@/components/ExoTwentyTwo.vue"
+  import EventComponent from "@/components/EventComponent.vue"
 </script>
