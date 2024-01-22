@@ -12,6 +12,12 @@
 
 <script setup>
   import { RouterView } from "vue-router"
+
+  import { useUsersStore } from "./stores/users.store"
+
+  const usersStore = useUsersStore()
+
+  usersStore.fetchUsers()
 </script>
 
 <style scoped></style>
